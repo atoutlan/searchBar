@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="请输入菜品首字母/助记码" translatesAutoresizingMaskIntoConstraints="NO" id="hUV-wS-VCN">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WJo-Za-kLp">
+                                <rect key="frame" x="0.0" y="72" width="320" height="496"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WJo-Za-kLp" firstAttribute="top" secondItem="hUV-wS-VCN" secondAttribute="bottom" id="7hr-KW-dCp"/>
+                            <constraint firstItem="WJo-Za-kLp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ccu-0m-lSE"/>
+                            <constraint firstAttribute="trailing" secondItem="hUV-wS-VCN" secondAttribute="trailing" id="QrY-cv-iWm"/>
+                            <constraint firstItem="hUV-wS-VCN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="mTW-Dj-ILH"/>
+                            <constraint firstItem="hUV-wS-VCN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="s4W-lm-H6w"/>
+                            <constraint firstAttribute="trailing" secondItem="WJo-Za-kLp" secondAttribute="trailing" id="tyy-mM-e87"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WJo-Za-kLp" secondAttribute="bottom" id="y3u-jh-OvU"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="mealSearchBar" destination="hUV-wS-VCN" id="axm-s9-cOa"/>
+                        <outlet property="tableView" destination="WJo-Za-kLp" id="c1w-UT-l5n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="435"/>
+        </scene>
+    </scenes>
+</document>
