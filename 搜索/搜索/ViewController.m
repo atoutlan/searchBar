@@ -25,7 +25,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.mealSearchBar.delegate = self;
     
     self.searchDisplayController = [[UISearchDisplayController alloc] initWithSearchBar:self.mealSearchBar contentsController:self];
