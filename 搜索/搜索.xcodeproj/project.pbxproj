@@ -170,6 +170,7 @@
 				TargetAttributes = {
 					639BA0441C0EE8240064B1B2 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = Y4D5UAG5DA;
 					};
 					639BA05D1C0EE8240064B1B2 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -351,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4D5UAG5DA;
 				INFOPLIST_FILE = "搜索/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -363,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4D5UAG5DA;
 				INFOPLIST_FILE = "搜索/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
