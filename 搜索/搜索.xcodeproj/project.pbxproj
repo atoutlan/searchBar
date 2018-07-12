@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		631799071C102FAF00E57028 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 631799051C102FAF00E57028 /* pinyin.c */; settings = {ASSET_TAGS = (); }; };
+		631799071C102FAF00E57028 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 631799051C102FAF00E57028 /* pinyin.c */; };
 		639BA04A1C0EE8240064B1B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BA0491C0EE8240064B1B2 /* main.m */; };
 		639BA04D1C0EE8240064B1B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BA04C1C0EE8240064B1B2 /* AppDelegate.m */; };
 		639BA0501C0EE8240064B1B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BA04F1C0EE8240064B1B2 /* ViewController.m */; };
@@ -15,6 +15,7 @@
 		639BA0551C0EE8240064B1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639BA0541C0EE8240064B1B2 /* Assets.xcassets */; };
 		639BA0581C0EE8240064B1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639BA0561C0EE8240064B1B2 /* LaunchScreen.storyboard */; };
 		639BA0631C0EE8240064B1B2 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BA0621C0EE8240064B1B2 /* __Tests.m */; };
+		63D8BE8320F6E44A003EF93A /* GItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8BE8220F6E44A003EF93A /* GItViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		639BA05E1C0EE8240064B1B2 /* 搜索Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "搜索Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		639BA0621C0EE8240064B1B2 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
 		639BA0641C0EE8240064B1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D8BE8120F6E44A003EF93A /* GItViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GItViewController.h; sourceTree = "<group>"; };
+		63D8BE8220F6E44A003EF93A /* GItViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GItViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				639BA04C1C0EE8240064B1B2 /* AppDelegate.m */,
 				639BA04E1C0EE8240064B1B2 /* ViewController.h */,
 				639BA04F1C0EE8240064B1B2 /* ViewController.m */,
+				63D8BE8120F6E44A003EF93A /* GItViewController.h */,
+				63D8BE8220F6E44A003EF93A /* GItViewController.m */,
 				639BA0511C0EE8240064B1B2 /* Main.storyboard */,
 				631799051C102FAF00E57028 /* pinyin.c */,
 				631799061C102FAF00E57028 /* pinyin.h */,
@@ -216,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D8BE8320F6E44A003EF93A /* GItViewController.m in Sources */,
 				631799071C102FAF00E57028 /* pinyin.c in Sources */,
 				639BA0501C0EE8240064B1B2 /* ViewController.m in Sources */,
 				639BA04D1C0EE8240064B1B2 /* AppDelegate.m in Sources */,
